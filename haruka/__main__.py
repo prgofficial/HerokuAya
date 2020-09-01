@@ -135,17 +135,17 @@ def send_start(bot, update):
         pass
 
     #chat = update.effective_chat  # type: Optional[Chat] and unused variable
-    text = "Hey there! My name is Haruka Aya - I'm here to help you manage your groups!\n\
-Click Help button to find out more about how to use me to my full potential.\n\n"
+    text = "Hey there! My name is Malayali Manager ! I can not help you😔😔😔.
+⌛ For the time being, join the group and bot you see below. The bot also has links to other channels and other groups.
 
-    text += "Join [Faq Group](https://t.me/zainstechchat) ( @zainstechchat ) if you need any support or help\n\n\
-Follow [Zains Projects](https://t.me/zainsprojects) ( @ZainsProjects ) if you want to keep up with the news, updates and bot downtime!\n\n\
-\n\nWant to add me to your group? [Click here!](t.me/HarukaAyaBot?startgroup=true)"
+    text += "🔰 Other capable bots like me can be found [click here](https://t.me/MalayaliLinksBot)
+I am [this](https://t.me/MalayaliMovieGroup) Group Manager Please Join.
+Donation all in [this](https://t.me/MalayaliLinksBot) Bot Please Donate.
 
-    keyboard = [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/HarukaAyaGroup")]]
-    keyboard += [[InlineKeyboardButton(text="🛠 Control panel", callback_data="cntrl_panel_M")]]
-    keyboard += [[InlineKeyboardButton(text="🇺🇸 Language", callback_data="set_lang_"), 
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]
+    keyboard = [[InlineKeyboardButton(text="🇮🇳 Join Group 🇮🇳", url="https://t.me/MalayaliTGInfos")]]
+    keyboard += [[InlineKeyboardButton(text="🇮🇳 YouTube Channel 🇮🇳", url="https://www.youtube.com/channel/UCNGIL58ODGS-zCd9jBIUCiQ")]]
+    keyboard += [[InlineKeyboardButton(text="Donation", url="https://t.me/MalayaliLinksBot"), 
+        InlineKeyboardButton(text="Links🔗", url="https://t.me/MalayaliLinksBot")]]
 
     update.effective_message.reply_text(text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
