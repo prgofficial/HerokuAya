@@ -199,7 +199,7 @@ This will create two buttons on a single line, instead of one button per line.
 """
 
 EnglishStrings = {
-    "send-start": """Hi {}, my name is Malayali Manager
+    "send-start""": """Hi {}, my name is Malayali Manager
 
 I'm a group manager bot maintained by [this Bot](https://t.me/MalayaliLinksBot) Admins.
 I'm Group Manager of [this](https://t.me/MalayaliMovieGroup)
