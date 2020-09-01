@@ -140,12 +140,12 @@ def send_start(bot, update):
 
     text += "🔰 Other capable bots like me can be found [click here](https://t.me/MalayaliLinksBot)\n\n\
 I am [this](https://t.me/MalayaliMovieGroup) Group Manager Please Join.\n\n\
-Donation all in [this](https://t.me/MalayaliLinksBot) Bot Please Donate."
+Donation all in [this](https://t.me/MalayaliLinksBot) Bot Please Donate.💵💵💵💵"
 
     keyboard = [[InlineKeyboardButton(text="🇮🇳 Join Group 🇮🇳", url="https://t.me/MalayaliTGInfos")]]
     keyboard += [[InlineKeyboardButton(text="🇮🇳 YouTube Channel 🇮🇳", url="https://www.youtube.com/channel/UCNGIL58ODGS-zCd9jBIUCiQ")]]
-    keyboard += [[InlineKeyboardButton(text="Donation", url="https://t.me/MalayaliLinksBot"), 
-        InlineKeyboardButton(text="Links🔗", url="https://t.me/MalayaliLinksBot")]]
+    keyboard += [[InlineKeyboardButton(text="💵Donation💵", url="https://t.me/MalayaliLinksBot"), 
+        InlineKeyboardButton(text="🔗 Links 🔗", url="https://t.me/MalayaliLinksBot")]]
 
     update.effective_message.reply_text(text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
