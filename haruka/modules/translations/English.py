@@ -199,19 +199,19 @@ This will create two buttons on a single line, instead of one button per line.
 """
 
 EnglishStrings = {
-    "send-start": """Hi {}, my name {}! If you have any questions on how to use me, read /help - and then head to @YanaBotGroup.
+    "send-start": """Hi {}, my name is Malayali Manager
 
-I'm a group manager bot maintained by [this person](tg://user?id={654839744}). I'm a [Marie](https://github.com/PaulSonOfLars/tgbot) fork.
-I'm built in python3, using the \
-python-telegram-bot library, and am fully opensource - you can find what makes me tick\
-[here](https://github.com/peaktogoo/HarukaAya))!
+I'm a group manager bot maintained by [this Bot](https://t.me/MalayaliLinksBot) Admins.
+I'm Group Manager of [this](https://t.me/MalayaliMovieGroup)
 
-Feel free to submit pull requests on github, or to contact my support group, @EchelonTeam, with any bugs, questions \
-or feature requests you might have :)
+I can not help you😔😔😔.
 
-If you enjoying using me and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS!
-""",
+🔰 Other capable bots like me can be found click [here](https://t.me/MalayaliLinksBot) on.
 
+Donation is all on [this](https://t.me/MalayaliLinksBot) bot.
+
+🔰 Support Group 🔰 - @MalayaliInfos
+🔰 Support Bot 🔰 - @MalayaliLinksBot
     "send-help": """Hey there! My name is *{}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with.
 
