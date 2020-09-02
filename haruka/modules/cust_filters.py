@@ -280,7 +280,7 @@ def stop_all_filters(bot: Bot, update: Update):
     for fx in f_flist:
         sql.remove_filter(chat.id, fx)
 
-    message.reply_text(tld(chat.id, "cust_filters_cleanup_success").format(x))
+    message.reply_text(tld(chat.id, "All Filters Of {} Chat Has Been Stopped.").format(chat.title))
 
 
 def __stats__():
