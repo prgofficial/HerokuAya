@@ -310,6 +310,7 @@ Filters are case insensitive; every time someone says your trigger words, {} wil
 *Admin only:*
  - /filter <keyword> <reply message>: Every time someone says "word", the bot will reply with "sentence". For multiple word filters, quote the first word.
  - /stop <filter keyword>: stop that filter.
+ - /stopall: stop all filters
  
  An example of how to set a filter would be via:
 `/filter hello Hello there! How are you?`
@@ -324,10 +325,12 @@ __mod_name__ = "Filters"
 
 FILTER_HANDLER = DisableAbleCommandHandler("filter", filters)
 STOP_HANDLER = DisableAbleCommandHandler("stop", stop_filter)
+STOPALL_HANDLER = DisableAbleCommandHandler("stopall", stop_all_filters)
 LIST_HANDLER = DisableAbleCommandHandler("filters", list_handlers, admin_ok=True)
 CUST_FILTER_HANDLER = MessageHandler(CustomFilters.has_text, reply_filter)
 
 dispatcher.add_handler(FILTER_HANDLER)
 dispatcher.add_handler(STOP_HANDLER)
+dispatcher.add_handler(STOPALL_HANDLER)
 dispatcher.add_handler(LIST_HANDLER)
 dispatcher.add_handler(CUST_FILTER_HANDLER, HANDLER_GROUP)
