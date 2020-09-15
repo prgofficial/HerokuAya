@@ -135,17 +135,23 @@ def send_start(bot, update):
         pass
 
     #chat = update.effective_chat  # type: Optional[Chat] and unused variable
-    text = "Hey there! I can not help you😔😔😔.\n\
-⌛ For the time being, join the group and bot you see below. The bot also has links to other channels and other groups.\n\n"
+    text = "Hey there! I am a Group Manager Bot.\n\
+If you have any questions about how to use me please give me /help...\n\n"
 
-    text += "🔰 Other capable bots like me can be found [click here](https://t.me/MalayaliLinksBot)\n\n\
+    text += "🤖 Other capable bots like me can be found [click here](https://t.me/MalayaliLinksBot)\n\n\
 This is My Channel - @MalayaliAll Please Join & My Support Group is @MalayaliTGInfos Please Join.\n\n\
-Donation all in [this](.me/MalayaliLinksBot) Bot Please Donate.💵💵💵💵"
-keyboard += [[InlineKeyboardButton(text="Channel", url="https://t.me/MalayaliAll"),
-InlineKeyboardButton(text="Group", url="https://t.me/MalayaliTGinfos")]]
-keyboard += [[InlineKeyboardButton(text="Donation", url="https://t.me/MalayaliLinksBot"),
-InlineKeyboardButton(text="Links🔗", url="https://t.me/MalayaliLinksBot")]]
-keyboard += [[InlineKeyboardButton(text="🇮🇳 YouTube Channel 🇮🇳", url="https://www.youtube.com/channel/UCNGIL58ODGS-zCd9jBIUCiQ")]]
+Donation all in [this](t.me/MalayaliLinksBot) Bot Please Donate.💸💸💸"
+Click The button "Deploy Code For Creating capable bot Like Me"
+ 
+    keyboard = [[InlineKeyboardButton(text="💘Join Channel💘", url="https://t.me/MalayaliAll"),
+    InlineKeyboardButton(text="👥Support Group👥", url="https://t.me/MalayaliTGinfos")]]
+    keyboard += [[InlineKeyboardButton(text="⚜YouTube Channel⚜", url="https://www.youtube.com/channel/UCNGIL58ODGS-zCd9jBIUCiQ")]]
+    keyboard += [[InlineKeyboardButton(text="💸Donate Please💸", url="https://t.me/MalayaliLinksBot"),
+    InlineKeyboardButton(text="🎭Links Bot🎭", url="https://t.me/MalayaliLinksBot")]]
+    keyboard += [[InlineKeyboardButton(text="🔰Deploy Code🔰", url="https://heroku.com/deploy?template=https://github.com/MalayaliOwner/HerokuAya")]]
+
+
+
 
 
 
