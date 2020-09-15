@@ -139,8 +139,11 @@ def send_start(bot, update):
 If you have any questions about how to use me please give me /help...\n\n"
 
     text += "🤖 Other capable bots like me can be found [click here](https://t.me/MalayaliLinksBot)\n\n\
+
 This is My Channel - @MalayaliAll Please Join & My Support Group is @MalayaliTGInfos Please Join.\n\n\
+
 Donation all in [this](t.me/MalayaliLinksBot) Bot Please Donate.💸💸💸"
+
 Click The button "Deploy Code For Creating capable bot Like Me"
  
     keyboard = [[InlineKeyboardButton(text="💘Join Channel💘", url="https://t.me/MalayaliAll"),
