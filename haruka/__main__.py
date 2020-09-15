@@ -135,17 +135,17 @@ def send_start(bot, update):
         pass
 
     #chat = update.effective_chat  # type: Optional[Chat] and unused variable
-    text = "Hey there! I am a Group Manager Bot.\n\
+    text = """Hey there! I am a Group Manager Bot."""
 
-If you have any questions about how to use me please give me /help...\n\n"
+"""If you have any questions about how to use me please give me /help..."""
 
-    text += "🤖 Other capable bots like me can be found [click here](https://t.me/MalayaliLinksBot)\n\n\
+    text += """🤖 Other capable bots like me can be found [click here](https://t.me/MalayaliLinksBot) on."""
 
-This is My Channel - @MalayaliAll Please Join & My Support Group is @MalayaliTGInfos Please Join.\n\n\
+"""This is My Channel - @MalayaliAll Please Join & My Support Group is @MalayaliTGInfos Please Join."""
 
-Donation all in [this](t.me/MalayaliLinksBot) Bot Please Donate.💸💸💸"
+"""Donation all in [this](t.me/MalayaliLinksBot) Bot Please Donate.💸💸💸"""
 
-Click The button "Deploy Code For Creating capable bot Like Me"
+"""Click The button "Deploy Code For Creating capable bot Like Me"""
  
     keyboard = [[InlineKeyboardButton(text="💘Join Channel💘", url="https://t.me/MalayaliAll"),
     InlineKeyboardButton(text="👥Support Group👥", url="https://t.me/MalayaliTGinfos")]]
