@@ -139,8 +139,8 @@ def send_start(bot, update):
 ⌛ For the time being, join the group and bot you see below. The bot also has links to other channels and other groups.\n\n"
 
     text += "🔰 Other capable bots like me can be found [click here](https://t.me/MalayaliLinksBot)\n\n\
-I am [this](https://t.me/MalayaliMovieGroup) Group Manager Please Join.\n\n\
-Donation all in [this](https://t.me/MalayaliLinksBot) Bot Please Donate.💵💵💵💵"
+This is My Channel - @MalayaliAll Please Join & My Support Group is @MalayaliTGInfos Please Join.\n\n\
+Donation all in [this](.me/MalayaliLinksBot) Bot Please Donate.💵💵💵💵"
 keyboard += [[InlineKeyboardButton(text="Channel", url="https://t.me/MalayaliAll"),
 InlineKeyboardButton(text="Group", url="https://t.me/MalayaliTGinfos")]]
 keyboard += [[InlineKeyboardButton(text="Donation", url="https://t.me/MalayaliLinksBot"),
