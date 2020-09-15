@@ -139,19 +139,19 @@ text = """Hey there! I am a Group Manager Bot."""
 
 """If you have any questions about how to use me please give me /help..."""
 
-text += """🤖 Other capable bots like me can be found [click here](https://t.me/MalayaliLinksBot) on."""
+text += """🤖 Other capable bots like me can be found [click here](t.me/MalayaliLinksBot) on."""
 
 """This is My Channel - @MalayaliAll Please Join & My Support Group is @MalayaliTGInfos Please Join."""
 
 """Donation all in [this](t.me/MalayaliLinksBot) Bot Please Donate.💸💸💸"""
 
-"""Click The button "Deploy Code For Creating capable bot Like Me"""
+"""Click The button "Deploy Code For Creating capable bot Like Me."""
  
     keyboard = [[InlineKeyboardButton(text="💘Join Channel💘", url="t.me/MalayaliAll"),
-    InlineKeyboardButton(text="👥Support Group👥", url="t.me/MalayaliTGinfos")]]
+        InlineKeyboardButton(text="👥Support Group👥", url="t.me/MalayaliTGinfos")]]
     keyboard += [[InlineKeyboardButton(text="⚜YouTube Channel⚜", url="https://www.youtube.com/channel/UCNGIL58ODGS-zCd9jBIUCiQ")]]
     keyboard += [[InlineKeyboardButton(text="💸Donate Please💸", url="t.me/MalayaliLinksBot"),
-    InlineKeyboardButton(text="🎭Links Bot🎭", url="t.me/MalayaliLinksBot")]]
+        InlineKeyboardButton(text="🎭Links Bot🎭", url="t.me/MalayaliLinksBot")]]
     keyboard += [[InlineKeyboardButton(text="🔰Deploy Code🔰", url="https://heroku.com/deploy?template=https://github.com/MalayaliOwner/HerokuAya")]]
 
 
