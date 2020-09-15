@@ -136,6 +136,7 @@ def send_start(bot, update):
 
     #chat = update.effective_chat  # type: Optional[Chat] and unused variable
     text = "Hey there! I am a Group Manager Bot.\n\
+
 If you have any questions about how to use me please give me /help...\n\n"
 
     text += "🤖 Other capable bots like me can be found [click here](https://t.me/MalayaliLinksBot)\n\n\
